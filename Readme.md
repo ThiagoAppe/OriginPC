@@ -2,6 +2,9 @@
 
 Este documento explica la metodología de trabajo para evitar conflictos en el desarrollo del proyecto. **Por favor, sigan estas pautas para mantener un flujo de trabajo organizado**.
 
+## TRELLO
+
+
 ## Metodología de trabajo colaborativo
 
 1. **Comunicación constante**  
@@ -48,3 +51,15 @@ En la raíz del proyecto, hay dos directorios importantes:
 ## Próximos pasos
 
 El fin de semana podemos revisar y discutir el uso de la extensión **Live Share** en detalle. Mientras tanto, cualquier duda que tengan, no duden en consultarla por el grupo de WhatsApp.
+
+
+## Paginas de ejemplo para tener una idea de la intencion del proyecto
+
+- **Origin PC:**
+    - https://www.originpc.com/?srsltid=AfmBOorY9AtHfGXH61vO0h4RrYBQvoiFm6MbsNCfZGorsBcK5gVWlK_p
+
+- **FULLH4ARD:**
+    - https://fullh4rd.com.ar/armatupc
+
+- **MAXIMUS**
+    - https://www.maximus.com.ar/armarpc/armar-pc/maximus.aspx?srsltid=AfmBOooU53ZKIOUiDfHpNmLFO1t3_UhiRRRBvEDK1rLuyMa0ecg9GzND
