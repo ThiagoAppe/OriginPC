@@ -3,7 +3,7 @@
 Este documento explica la metodología de trabajo para evitar conflictos en el desarrollo del proyecto. **Por favor, sigan estas pautas para mantener un flujo de trabajo organizado**.
 
 ## TRELLO
-
+- https://trello.com/b/vBYXZkpa/originpc
 
 ## Metodología de trabajo colaborativo
 
