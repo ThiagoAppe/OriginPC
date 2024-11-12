@@ -1,0 +1,50 @@
+.encabezado{
+    text-align: center;
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+.encabezadoh1{
+    margin: 0;
+    font-size: 4em; 
+}
+.container-fluid{
+    max-width: 100%;
+    width: auto;
+}
+img{
+    width: 400px; 
+    height:550px;
+}
+.piedepag{
+    text-align: center;
+    color:black;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+}
+.acomodarimg img{
+    height: 45px;
+    width: 45px;
+}
+.acomodardiv{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.espaciardiv div{
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+.checkbox{
+    margin-right: 1rem
+}
+.Acomodar-Items-Interiores div{
+    display: flex;
+    flex-direction: column;
+}
+
+#Mensaje{
+    display: flex;
+    flex-direction: column;
+}
