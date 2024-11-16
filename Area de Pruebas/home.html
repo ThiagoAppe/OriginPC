@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda de Computadoras</title>
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="MDB-logo"
+                    src="./assets/logo.png" alt="Logo Tienda" draggable="false"
+                    height="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#prearmadas">Computadoras Prearmadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#componentes">Componentes de PC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <main class="mt-5">
+        <!-- Hero Section -->
+        <section id="inicio" class="py-5 text-center bg-primary text-white">
+            <div class="container">
+                <h1>Bienvenido a Nuestra Tienda de Computadoras</h1>
+                <p>Encuentra las mejores computadoras prearmadas y componentes de PC al mejor precio.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Computadoras Prearmadas -->
+        <section id="prearmadas" class="py-5">
+            <div class="container">
+                <h2 class="mb-4">Computadoras Prearmadas</h2>
+                <div class="row">
+                    <!-- Tarjeta de ejemplo -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./assets/pc-prearmada.jpg" class="card-img-top" alt="PC Prearmada">
+                            <div class="card-body">
+                                <h5 class="card-title">PC Gamer RTX 3060</h5>
+                                <p class="card-text">Procesador Intel i7, 16GB RAM, SSD 1TB.</p>
+                                <a href="#" class="btn btn-primary">Ver Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Añadir más tarjetas según sea necesario -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Componentes -->
+        <section id="componentes" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-4">Componentes de PC</h2>
+                <div class="row">
+                    <!-- Tarjeta de ejemplo -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./assets/ram.jpg" class="card-img-top" alt="Memoria RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Memoria RAM 16GB DDR4</h5>
+                                <p class="card-text">Alta velocidad para máximo rendimiento.</p>
+                                <a href="#" class="btn btn-primary">Ver Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Añadir más tarjetas según sea necesario -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <h2 class="mb-4">Contáctanos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Tienda de Computadoras. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12K2jvQmKj5CZ+VNMj5a9K5e3I5hYoDjzt4/6KBl6U7E/qp4I"
+        crossorigin="anonymous"></script>
 </body>
-</html>l
+
+</html>

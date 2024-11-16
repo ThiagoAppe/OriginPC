@@ -1,0 +1,821 @@
+[
+    {
+        "id": 1,
+        "id_categoria": 1,
+        "nombre": "AMD Ryzen 3 3100",
+        "modelo": "Ryzen 3 3100",
+        "especificaciones_tecnicas": {
+            "nucleos": 4,
+            "hilos": 8,
+            "frecuencia_base": "3.6 GHz",
+            "frecuencia_max_turbo": "3.9 GHz",
+            "cache": "18 MB (L2 + L3)",
+            "tdp": "65 W"
+        },
+        "fecha_de_salida": "Mayo 2020",
+        "imagen": "https://example.com/imagenes/ryzen3_3100.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "consumo": "65 W",
+            "gaming": 3,
+            "ofimatica": 5,
+            "workstation": 2
+        }
+    },
+    {
+        "id": 2,
+        "id_categoria": 1,
+        "nombre": "AMD Ryzen 5 3600",
+        "modelo": "Ryzen 5 3600",
+        "especificaciones_tecnicas": {
+            "nucleos": 6,
+            "hilos": 12,
+            "frecuencia_base": "3.6 GHz",
+            "frecuencia_max_turbo": "4.2 GHz",
+            "cache": "35 MB (L2 + L3)",
+            "tdp": "65 W"
+        },
+        "fecha_de_salida": "Julio 2019",
+        "imagen": "https://example.com/imagenes/ryzen5_3600.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "consumo": "65 W",
+            "gaming": 4,
+            "ofimatica": 5,
+            "workstation": 3
+        }
+    },
+    {
+        "id": 3,
+        "id_categoria": 1,
+        "nombre": "AMD Ryzen 7 3700X",
+        "modelo": "Ryzen 7 3700X",
+        "especificaciones_tecnicas": {
+            "nucleos": 8,
+            "hilos": 16,
+            "frecuencia_base": "3.6 GHz",
+            "frecuencia_max_turbo": "4.4 GHz",
+            "cache": "36 MB (L2 + L3)",
+            "tdp": "65 W"
+        },
+        "fecha_de_salida": "Julio 2019",
+        "imagen": "https://example.com/imagenes/ryzen7_3700x.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "consumo": "65 W",
+            "gaming": 5,
+            "ofimatica": 5,
+            "workstation": 4
+        }
+    },
+    {
+        "id": 4,
+        "id_categoria": 1,
+        "nombre": "AMD Ryzen 9 3900X",
+        "modelo": "Ryzen 9 3900X",
+        "especificaciones_tecnicas": {
+            "nucleos": 12,
+            "hilos": 24,
+            "frecuencia_base": "3.8 GHz",
+            "frecuencia_max_turbo": "4.6 GHz",
+            "cache": "70 MB (L2 + L3)",
+            "tdp": "105 W"
+        },
+        "fecha_de_salida": "Julio 2019",
+        "imagen": "https://example.com/imagenes/ryzen9_3900x.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "consumo": "105 W",
+            "gaming": 5,
+            "ofimatica": 5,
+            "workstation": 5
+        }
+    },
+    {
+        "id": 5,
+        "id_categoria": 2,
+        "nombre": "Motherboard MSI B450 TOMAHAWK MAX",
+        "modelo": "B450 TOMAHAWK MAX",
+        "especificaciones_tecnicas": {
+            "chipset": "B450",
+            "form_factor": "ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "6",
+            "pci_express": "2 x PCIe 3.0 x16",
+            "memoria_ram": "DDR4-4133+(OC)"
+        },
+        "fecha_de_salida": "Agosto 2019",
+        "imagen": "https://example.com/imagenes/msi_b450_tomahawk_max.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "id_categoria": 2,
+        "nombre": "Motherboard ASUS ROG STRIX B450-F",
+        "modelo": "ROG STRIX B450-F",
+        "especificaciones_tecnicas": {
+            "chipset": "B450",
+            "form_factor": "ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "8",
+            "pci_express": "2 x PCIe 3.0 x16",
+            "memoria_ram": "DDR4-3600+(OC)"
+        },
+        "fecha_de_salida": "Junio 2019",
+        "imagen": "https://example.com/imagenes/asus_rog_strix_b450_f.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "id_categoria": 2,
+        "nombre": "Motherboard Gigabyte B450 AORUS ELITE",
+        "modelo": "B450 AORUS ELITE",
+        "especificaciones_tecnicas": {
+            "chipset": "B450",
+            "form_factor": "ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "6",
+            "pci_express": "1 x PCIe 3.0 x16",
+            "memoria_ram": "DDR4-3600+(OC)"
+        },
+        "fecha_de_salida": "Julio 2019",
+        "imagen": "https://example.com/imagenes/gigabyte_b450_aorus_elite.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Corsair Vengeance LPX 4GB",
+        "modelo": "Vengeance LPX 4GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "4 GB",
+            "velocidad": "2133 MHz",
+            "latencia": "15-15-15-35",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_4gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "motherboards_compatibles_id": [
+                5,
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM G.Skill Ripjaws V 4GB",
+        "modelo": "Ripjaws V 4GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "4 GB",
+            "velocidad": "2400 MHz",
+            "latencia": "16-16-16-36",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Febrero 2020",
+        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_4gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Kingston HyperX Fury 4GB",
+        "modelo": "HyperX Fury 4GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "4 GB",
+            "velocidad": "2133 MHz",
+            "latencia": "15-15-15-35",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_4gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Corsair Vengeance LPX 8GB",
+        "modelo": "Vengeance LPX 8GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "8 GB",
+            "velocidad": "2400 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_8gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM G.Skill Ripjaws V 8GB",
+        "modelo": "Ripjaws V 8GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "8 GB",
+            "velocidad": "2666 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Febrero 2020",
+        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_8gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Kingston HyperX Fury 8GB",
+        "modelo": "HyperX Fury 8GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "8 GB",
+            "velocidad": "2400 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.2 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_8gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Corsair Vengeance LPX 16GB",
+        "modelo": "Vengeance LPX 16GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "16 GB",
+            "velocidad": "3200 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.35 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_16gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM G.Skill Ripjaws V 16GB",
+        "modelo": "Ripjaws V 16GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "16 GB",
+            "velocidad": "3200 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.35 V"
+        },
+        "fecha_de_salida": "Febrero 2020",
+        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_16gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "id_categoria": 3,
+        "nombre": "Memoria RAM Kingston HyperX Fury 16GB",
+        "modelo": "HyperX Fury 16GB",
+        "especificaciones_tecnicas": {
+            "tipo": "DDR4",
+            "capacidad": "16 GB",
+            "velocidad": "3000 MHz",
+            "latencia": "16-18-18-36",
+            "tension": "1.35 V"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_16gb.jpg",
+        "compatibilidad": {
+            "socket": "AM4",
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "id_categoria": 4,
+        "nombre": "SSD Kingston A400 120GB",
+        "modelo": "A400 120GB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD",
+            "capacidad": "120 GB",
+            "interfaz": "SATA III",
+            "velocidad_lectura": "500 MB/s",
+            "velocidad_escritura": "350 MB/s"
+        },
+        "fecha_de_salida": "Junio 2018",
+        "imagen": "https://example.com/imagenes/kingston_a400_120gb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "id_categoria": 4,
+        "nombre": "SSD Kingston A400 120GB",
+        "modelo": "A400 120GB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD",
+            "capacidad": "120 GB",
+            "interfaz": "SATA III",
+            "velocidad_lectura": "500 MB/s",
+            "velocidad_escritura": "350 MB/s"
+        },
+        "fecha_de_salida": "Junio 2018",
+        "imagen": "https://example.com/imagenes/kingston_a400_120gb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "id_categoria": 4,
+        "nombre": "SSD Kingston A400 500GB",
+        "modelo": "A400 500GB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD",
+            "capacidad": "500 GB",
+            "interfaz": "SATA III",
+            "velocidad_lectura": "500 MB/s",
+            "velocidad_escritura": "450 MB/s"
+        },
+        "fecha_de_salida": "Junio 2018",
+        "imagen": "https://example.com/imagenes/kingston_a400_500gb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "id_categoria": 4,
+        "nombre": "SSD Kingston A400 500GB",
+        "modelo": "A400 500GB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD",
+            "capacidad": "500 GB",
+            "interfaz": "SATA III",
+            "velocidad_lectura": "500 MB/s",
+            "velocidad_escritura": "450 MB/s"
+        },
+        "fecha_de_salida": "Junio 2018",
+        "imagen": "https://example.com/imagenes/kingston_a400_500gb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "id_categoria": 4,
+        "nombre": "SSD Samsung 970 EVO 1TB",
+        "modelo": "970 EVO 1TB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD NVMe",
+            "capacidad": "1 TB",
+            "interfaz": "M.2 NVMe",
+            "velocidad_lectura": "3500 MB/s",
+            "velocidad_escritura": "2500 MB/s"
+        },
+        "fecha_de_salida": "Marzo 2019",
+        "imagen": "https://example.com/imagenes/samsung_970_evo_1tb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "id_categoria": 4,
+        "nombre": "SSD Samsung 970 EVO 1TB",
+        "modelo": "970 EVO 1TB",
+        "especificaciones_tecnicas": {
+            "tipo": "SSD NVMe",
+            "capacidad": "1 TB",
+            "interfaz": "M.2 NVMe",
+            "velocidad_lectura": "3500 MB/s",
+            "velocidad_escritura": "2500 MB/s"
+        },
+        "fecha_de_salida": "Marzo 2019",
+        "imagen": "https://example.com/imagenes/samsung_970_evo_1tb.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "motherboards_compatibles_id": [
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "id_categoria": 1,
+        "nombre": "Intel Core i3-12100",
+        "modelo": "Core i3-12100",
+        "especificaciones_tecnicas": {
+            "nucleos": 4,
+            "hilos": 8,
+            "frecuencia_base": "3.3 GHz",
+            "frecuencia_max_turbo": "4.3 GHz",
+            "cache": "12 MB (L3)",
+            "tdp": "60 W"
+        },
+        "fecha_de_salida": "Enero 2022",
+        "imagen": "https://example.com/imagenes/intel_i3_12100.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "consumo": "60 W",
+            "gaming": 3,
+            "ofimatica": 5,
+            "workstation": 2
+        }
+    },
+    {
+        "id": 27,
+        "id_categoria": 2,
+        "nombre": "Motherboard ASUS Prime B660M-A D4",
+        "modelo": "Prime B660M-A D4",
+        "especificaciones_tecnicas": {
+            "chipset": "B660",
+            "form_factor": "Micro-ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "6",
+            "pci_express": "2 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5333+(OC)"
+        },
+        "fecha_de_salida": "Marzo 2022",
+        "imagen": "https://example.com/imagenes/asus_b660m_a_d4.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                26
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "id_categoria": 2,
+        "nombre": "Motherboard MSI PRO B660M-A",
+        "modelo": "PRO B660M-A",
+        "especificaciones_tecnicas": {
+            "chipset": "B660",
+            "form_factor": "Micro-ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "6",
+            "pci_express": "2 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5333+(OC)"
+        },
+        "fecha_de_salida": "Marzo 2022",
+        "imagen": "https://example.com/imagenes/msi_pro_b660m_a.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                26
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "id_categoria": 2,
+        "nombre": "Motherboard Gigabyte B660M DS3H",
+        "modelo": "B660M DS3H",
+        "especificaciones_tecnicas": {
+            "chipset": "B660",
+            "form_factor": "Micro-ATX",
+            "memoria_maxima": "64 GB",
+            "puertos_usb": "6",
+            "pci_express": "2 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5333+(OC)"
+        },
+        "fecha_de_salida": "Marzo 2022",
+        "imagen": "https://example.com/imagenes/gigabyte_b660m_ds3h.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                26
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "id_categoria": 1,
+        "nombre": "Intel Core i5-12600K",
+        "modelo": "Core i5-12600K",
+        "especificaciones_tecnicas": {
+            "nucleos": 10,
+            "hilos": 16,
+            "frecuencia_base": "3.7 GHz",
+            "frecuencia_max_turbo": "4.9 GHz",
+            "cache": "20 MB (L3)",
+            "tdp": "125 W"
+        },
+        "fecha_de_salida": "Enero 2022",
+        "imagen": "https://example.com/imagenes/intel_i5_12600k.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "consumo": "125 W",
+            "gaming": 4,
+            "ofimatica": 5,
+            "workstation": 3
+        }
+    },
+    {
+        "id": 31,
+        "id_categoria": 2,
+        "nombre": "Motherboard ASUS TUF Gaming Z690-PLUS WIFI D4",
+        "modelo": "TUF Gaming Z690-PLUS WIFI D4",
+        "especificaciones_tecnicas": {
+            "chipset": "Z690",
+            "form_factor": "ATX",
+            "memoria_maxima": "128 GB",
+            "puertos_usb": "10",
+            "pci_express": "3 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5333+(OC)"
+        },
+        "fecha_de_salida": "Abril 2022",
+        "imagen": "https://example.com/imagenes/asus_tuf_gaming_z690.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                30
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "id_categoria": 2,
+        "nombre": "Motherboard MSI MPG Z690 EDGE WIFI DDR4",
+        "modelo": "MPG Z690 EDGE WIFI DDR4",
+        "especificaciones_tecnicas": {
+            "chipset": "Z690",
+            "form_factor": "ATX",
+            "memoria_maxima": "128 GB",
+            "puertos_usb": "10",
+            "pci_express": "3 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5333+(OC)"
+        },
+        "fecha_de_salida": "Abril 2022",
+        "imagen": "https://example.com/imagenes/msi_z690_edge_wifi.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                30
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "id_categoria": 2,
+        "nombre": "Motherboard Gigabyte Z690 AORUS ELITE AX",
+        "modelo": "Z690 AORUS ELITE AX",
+        "especificaciones_tecnicas": {
+            "chipset": "Z690",
+            "form_factor": "ATX",
+            "memoria_maxima": "128 GB",
+            "puertos_usb": "8",
+            "pci_express": "3 x PCIe 4.0 x16",
+            "memoria_ram": "DDR4-5600+(OC)"
+        },
+        "fecha_de_salida": "Abril 2022",
+        "imagen": "https://example.com/imagenes/gigabyte_z690_aorus_elite.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                30
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "id_categoria": 1,
+        "nombre": "Intel Core i9-13900K",
+        "modelo": "Core i9-13900K",
+        "especificaciones_tecnicas": {
+            "nucleos": 24,
+            "hilos": 32,
+            "frecuencia_base": "3.0 GHz",
+            "frecuencia_max_turbo": "5.8 GHz",
+            "cache": "36 MB (L3)",
+            "tdp": "125 W"
+        },
+        "fecha_de_salida": "Enero 2023",
+        "imagen": "https://example.com/imagenes/intel_i9_13900k.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "consumo": "125 W",
+            "gaming": 5,
+            "ofimatica": 5,
+            "workstation": 5
+        }
+    },
+    {
+        "id": 35,
+        "id_categoria": 2,
+        "nombre": "Motherboard ASUS ROG Strix Z690-E Gaming WIFI",
+        "modelo": "ROG Strix Z690-E Gaming WIFI",
+        "especificaciones_tecnicas": {
+            "chipset": "Z690",
+            "form_factor": "ATX",
+            "memoria_maxima": "128 GB",
+            "puertos_usb": "12",
+            "pci_express": "3 x PCIe 4.0 x16",
+            "memoria_ram": "DDR5-6400+(OC)"
+        },
+        "fecha_de_salida": "Enero 2023",
+        "imagen": "https://example.com/imagenes/rog_strix_z690_e.jpg",
+        "compatibilidad": {
+            "socket": "LGA 1700",
+            "procesadores_compatibles_id": [
+                34
+            ]
+        }
+    }
+]
