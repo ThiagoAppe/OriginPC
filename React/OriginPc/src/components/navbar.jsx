@@ -34,6 +34,11 @@ export function NavbarWithSolidBackground() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
+        <Nav.Link as={Link} to="/productos" className="text-white">
+          Productos
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
         <Nav.Link as={Link} to="/contact" className="text-white">
           Contacto
         </Nav.Link>
