@@ -34,7 +34,7 @@ export function NavbarWithSolidBackground() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link as={Link} to="/productos" className="text-white">
+        <Nav.Link as={Link} to="/mainProductos" className="text-white">
           Productos
         </Nav.Link>
       </Nav.Item>

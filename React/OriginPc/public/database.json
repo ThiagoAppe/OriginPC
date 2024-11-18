@@ -36,7 +36,7 @@
             "tdp": "65 W"
         },
         "fecha_de_salida": "Julio 2019",
-        "imagen": "https://example.com/imagenes/ryzen5_3600.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_730795-MLU70005543490_062023-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "consumo": "65 W",
@@ -59,7 +59,7 @@
             "tdp": "65 W"
         },
         "fecha_de_salida": "Julio 2019",
-        "imagen": "https://example.com/imagenes/ryzen7_3700x.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJC_VzNPOchbuBO33TE-Lj14i0ntrRTNlEQ&s",
         "compatibilidad": {
             "socket": "AM4",
             "consumo": "65 W",
@@ -82,7 +82,7 @@
             "tdp": "105 W"
         },
         "fecha_de_salida": "Julio 2019",
-        "imagen": "https://example.com/imagenes/ryzen9_3900x.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_952195-MLA47980579793_102021-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "consumo": "105 W",
@@ -105,7 +105,7 @@
             "memoria_ram": "DDR4-4133+(OC)"
         },
         "fecha_de_salida": "Agosto 2019",
-        "imagen": "https://example.com/imagenes/msi_b450_tomahawk_max.jpg",
+        "imagen": "https://asset.msi.com/resize/image/global/product/product_1_20200806161944_5f2bbd20c4441.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -130,7 +130,7 @@
             "memoria_ram": "DDR4-3600+(OC)"
         },
         "fecha_de_salida": "Junio 2019",
-        "imagen": "https://example.com/imagenes/asus_rog_strix_b450_f.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg2J_eZ075uk6LD5JQFBn2VQ_pL8Nks2urHw&s",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -155,7 +155,7 @@
             "memoria_ram": "DDR4-3600+(OC)"
         },
         "fecha_de_salida": "Julio 2019",
-        "imagen": "https://example.com/imagenes/gigabyte_b450_aorus_elite.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABThfXrEjf__VsJuOcM35c5o-fpfd48Y9Ag&s",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -179,7 +179,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_4gb.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_884782-MLA41933898401_052020-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -208,7 +208,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Febrero 2020",
-        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_4gb.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghRjwXeVGLNh87TgghuXQqXAx4jdhGOqsEQ&s",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -237,7 +237,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_4gb.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_629706-MLA46152238640_052021-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -266,7 +266,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_8gb.jpg",
+        "imagen": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/CMK8GX4M1Z3200C16_800.jpg",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -295,7 +295,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Febrero 2020",
-        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_8gb.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_904413-MLA41523356859_042020-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -324,7 +324,7 @@
             "tension": "1.2 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_8gb.jpg",
+        "imagen": "https://fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-3200-kingston-fury-beast-0.jpg",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -353,7 +353,7 @@
             "tension": "1.35 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/corsair_vengeance_lpx_16gb.jpg",
+        "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/KoNfvGFeErdvrChxb9kx/imagen",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -382,7 +382,7 @@
             "tension": "1.35 V"
         },
         "fecha_de_salida": "Febrero 2020",
-        "imagen": "https://example.com/imagenes/gskill_ripjaws_v_16gb.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_800028-MLA74694766806_022024-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -411,7 +411,7 @@
             "tension": "1.35 V"
         },
         "fecha_de_salida": "Enero 2020",
-        "imagen": "https://example.com/imagenes/kingston_hyperx_fury_16gb.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688977-MLA44029591787_112020-O.webp",
         "compatibilidad": {
             "socket": "AM4",
             "procesadores_compatibles_id": [
@@ -440,7 +440,7 @@
             "velocidad_escritura": "350 MB/s"
         },
         "fecha_de_salida": "Junio 2018",
-        "imagen": "https://example.com/imagenes/kingston_a400_120gb.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44CoN3RPfy8jZENECmATm-B4S6doZG5yLiQ&s",
         "compatibilidad": {
             "procesadores_compatibles_id": [
                 1,
@@ -455,63 +455,7 @@
             ]
         }
     },
-    {
-        "id": 18,
-        "id_categoria": 4,
-        "nombre": "SSD Kingston A400 120GB",
-        "modelo": "A400 120GB",
-        "especificaciones_tecnicas": {
-            "tipo": "SSD",
-            "capacidad": "120 GB",
-            "interfaz": "SATA III",
-            "velocidad_lectura": "500 MB/s",
-            "velocidad_escritura": "350 MB/s"
-        },
-        "fecha_de_salida": "Junio 2018",
-        "imagen": "https://example.com/imagenes/kingston_a400_120gb.jpg",
-        "compatibilidad": {
-            "procesadores_compatibles_id": [
-                1,
-                3,
-                5,
-                7
-            ],
-            "motherboards_compatibles_id": [
-                9,
-                10,
-                11
-            ]
-        }
-    },
-    {
-        "id": 19,
-        "id_categoria": 4,
-        "nombre": "SSD Kingston A400 500GB",
-        "modelo": "A400 500GB",
-        "especificaciones_tecnicas": {
-            "tipo": "SSD",
-            "capacidad": "500 GB",
-            "interfaz": "SATA III",
-            "velocidad_lectura": "500 MB/s",
-            "velocidad_escritura": "450 MB/s"
-        },
-        "fecha_de_salida": "Junio 2018",
-        "imagen": "https://example.com/imagenes/kingston_a400_500gb.jpg",
-        "compatibilidad": {
-            "procesadores_compatibles_id": [
-                1,
-                3,
-                5,
-                7
-            ],
-            "motherboards_compatibles_id": [
-                9,
-                10,
-                11
-            ]
-        }
-    },
-    {
+{
         "id": 20,
         "id_categoria": 4,
         "nombre": "SSD Kingston A400 500GB",
@@ -524,7 +468,7 @@
             "velocidad_escritura": "450 MB/s"
         },
         "fecha_de_salida": "Junio 2018",
-        "imagen": "https://example.com/imagenes/kingston_a400_500gb.jpg",
+        "imagen": "https://media.kingston.com/kingston/product/ktc-product-ssd-a400-sa400s37-480gb-3-sm.jpg",
         "compatibilidad": {
             "procesadores_compatibles_id": [
                 1,
@@ -552,35 +496,7 @@
             "velocidad_escritura": "2500 MB/s"
         },
         "fecha_de_salida": "Marzo 2019",
-        "imagen": "https://example.com/imagenes/samsung_970_evo_1tb.jpg",
-        "compatibilidad": {
-            "procesadores_compatibles_id": [
-                1,
-                3,
-                5,
-                7
-            ],
-            "motherboards_compatibles_id": [
-                9,
-                10,
-                11
-            ]
-        }
-    },
-    {
-        "id": 22,
-        "id_categoria": 4,
-        "nombre": "SSD Samsung 970 EVO 1TB",
-        "modelo": "970 EVO 1TB",
-        "especificaciones_tecnicas": {
-            "tipo": "SSD NVMe",
-            "capacidad": "1 TB",
-            "interfaz": "M.2 NVMe",
-            "velocidad_lectura": "3500 MB/s",
-            "velocidad_escritura": "2500 MB/s"
-        },
-        "fecha_de_salida": "Marzo 2019",
-        "imagen": "https://example.com/imagenes/samsung_970_evo_1tb.jpg",
+        "imagen": "https://m.media-amazon.com/images/I/81zE8qvJbdL._AC_SL1500_.jpg",
         "compatibilidad": {
             "procesadores_compatibles_id": [
                 1,
@@ -609,7 +525,7 @@
             "tdp": "60 W"
         },
         "fecha_de_salida": "Enero 2022",
-        "imagen": "https://example.com/imagenes/intel_i3_12100.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYs0fKysQPdhqSWNMCUA1EO2EH2JdHf6XNA&s",
         "compatibilidad": {
             "socket": "LGA 1700",
             "consumo": "60 W",
@@ -632,7 +548,7 @@
             "memoria_ram": "DDR4-5333+(OC)"
         },
         "fecha_de_salida": "Marzo 2022",
-        "imagen": "https://example.com/imagenes/asus_b660m_a_d4.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nEeAJG5TDUCBFt3p0STZk8z7h6j3J7m4QQ&s",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -654,7 +570,7 @@
             "memoria_ram": "DDR4-5333+(OC)"
         },
         "fecha_de_salida": "Marzo 2022",
-        "imagen": "https://example.com/imagenes/msi_pro_b660m_a.jpg",
+        "imagen": "https://spacegamer.com.ar/img/Public/1058-producto-81oufvgcoal-ac-sl1500-2722.jpg",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -676,7 +592,7 @@
             "memoria_ram": "DDR4-5333+(OC)"
         },
         "fecha_de_salida": "Marzo 2022",
-        "imagen": "https://example.com/imagenes/gigabyte_b660m_ds3h.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuOUMsLXF2hA5T8zFPN_JuL1ywCtl3tQSueQ&s",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -698,7 +614,7 @@
             "tdp": "125 W"
         },
         "fecha_de_salida": "Enero 2022",
-        "imagen": "https://example.com/imagenes/intel_i5_12600k.jpg",
+        "imagen": "https://mla-s1-p.mlstatic.com/823326-MLA52874087375_122022-F.jpg",
         "compatibilidad": {
             "socket": "LGA 1700",
             "consumo": "125 W",
@@ -721,7 +637,7 @@
             "memoria_ram": "DDR4-5333+(OC)"
         },
         "fecha_de_salida": "Abril 2022",
-        "imagen": "https://example.com/imagenes/asus_tuf_gaming_z690.jpg",
+        "imagen": "https://www.deffo.com.ar/wp-content/uploads/2024/03/TUF-GAMING-X670E-PLUS-WIFI-1.webp",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -743,7 +659,7 @@
             "memoria_ram": "DDR4-5333+(OC)"
         },
         "fecha_de_salida": "Abril 2022",
-        "imagen": "https://example.com/imagenes/msi_z690_edge_wifi.jpg",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wOMHU-tZZi5XqEgKh8L3K6_LDV9Y7ke8GA&s",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -765,7 +681,7 @@
             "memoria_ram": "DDR4-5600+(OC)"
         },
         "fecha_de_salida": "Abril 2022",
-        "imagen": "https://example.com/imagenes/gigabyte_z690_aorus_elite.jpg",
+        "imagen": "https://m.media-amazon.com/images/I/81IfP8puwaL._AC_UF894,1000_QL80_.jpg",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
@@ -787,7 +703,7 @@
             "tdp": "125 W"
         },
         "fecha_de_salida": "Enero 2023",
-        "imagen": "https://example.com/imagenes/intel_i9_13900k.jpg",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_851671-MLA52221724022_102022-O.webp",
         "compatibilidad": {
             "socket": "LGA 1700",
             "consumo": "125 W",
@@ -810,11 +726,686 @@
             "memoria_ram": "DDR5-6400+(OC)"
         },
         "fecha_de_salida": "Enero 2023",
-        "imagen": "https://example.com/imagenes/rog_strix_z690_e.jpg",
+        "imagen": "https://pegasus5000.com.pe/485-pd4_def/placa-madre-asus-rog-strix-z690-e-gaming-wifi-ddr5-lga1700.jpg",
         "compatibilidad": {
             "socket": "LGA 1700",
             "procesadores_compatibles_id": [
                 34
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce GTX 1650",
+        "modelo": "GTX 1650",
+        "especificaciones_tecnicas": {
+            "chipset": "Turing",
+            "memoria": "4 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Abril 2019",
+        "imagen": "https://fullh4rd.com.ar/img/productos/3/video-geforce-gtx-1650-4gb-gigabyte-d6-oc-0.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                1
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce GTX 1050 Ti",
+        "modelo": "GTX 1050 Ti",
+        "especificaciones_tecnicas": {
+            "chipset": "Pascal",
+            "memoria": "4 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Octubre 2016",
+        "imagen": "https://m.media-amazon.com/images/I/91wSunpXgpL._AC_SL1500_.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                2
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce GTX 1650 Super",
+        "modelo": "GTX 1650 Super",
+        "especificaciones_tecnicas": {
+            "chipset": "Turing",
+            "memoria": "4 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Noviembre 2019",
+        "imagen": "https://asset.msi.com/resize/image/global/product/product_10_20191029131030_5db7c9c6b9a7a.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                3
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce RTX 3060",
+        "modelo": "RTX 3060",
+        "especificaciones_tecnicas": {
+            "chipset": "Ampere",
+            "memoria": "12 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Enero 2021",
+        "imagen": "https://fullh4rd.com.ar/img/productos/3/video-geforce-rtx-3060-12gb-gigabyte-gaming-oc-0.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                4
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce GTX 1660 Ti",
+        "modelo": "GTX 1660 Ti",
+        "especificaciones_tecnicas": {
+            "chipset": "Turing",
+            "memoria": "6 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Febrero 2019",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC0aFpTaRqPbd_BadCOQCuf0ALTF9AXZmR_g&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                5
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce RTX 3050",
+        "modelo": "RTX 3050",
+        "especificaciones_tecnicas": {
+            "chipset": "Ampere",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Enero 2022",
+        "imagen": "https://static.gigabyte.com/StaticFile/Image/Global/b967c8e2d3c9f60d902905f154934478/Product/30760/Png",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                6
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce RTX 3080",
+        "modelo": "RTX 3080",
+        "especificaciones_tecnicas": {
+            "chipset": "Ampere",
+            "memoria": "10 GB GDDR6X",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6X"
+        },
+        "fecha_de_salida": "Septiembre 2020",
+        "imagen": "https://spacegamer.com.ar/img/Public/1058-producto-3080-ventus-2460.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                7
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce RTX 3070",
+        "modelo": "RTX 3070",
+        "especificaciones_tecnicas": {
+            "chipset": "Ampere",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Octubre 2020",
+        "imagen": "https://www.pccore.com.ar/8863-thickbox_default/placa-de-video-gigabyte-rtx-3070-gaming-8gb-oc-10.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                8
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "id_categoria": 5,
+        "nombre": "NVIDIA GeForce RTX 3090",
+        "modelo": "RTX 3090",
+        "especificaciones_tecnicas": {
+            "chipset": "Ampere",
+            "memoria": "24 GB GDDR6X",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6X"
+        },
+        "fecha_de_salida": "Septiembre 2020",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_818579-MLA80068707341_102024-O.webp",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                9
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "id_categoria": 5,
+        "nombre": "NVIDIA Quadro P2000",
+        "modelo": "Quadro P2000",
+        "especificaciones_tecnicas": {
+            "chipset": "Pascal",
+            "memoria": "5 GB GDDR5",
+            "puertos_usb": "DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Febrero 2017",
+        "imagen": "https://acdn.mitiendanube.com/stores/854/212/products/placa-de-video-pny-quadro-p2000-5gb-ddr51-c6597f9b6c278ddc0c15944441732885-1024-1024.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                10
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "id_categoria": 5,
+        "nombre": "NVIDIA Quadro RTX 4000",
+        "modelo": "Quadro RTX 4000",
+        "especificaciones_tecnicas": {
+            "chipset": "Turing",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "DisplayPort",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Enero 2019",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUw8_LogzG0XU8IqRb-kMGXU_AAWma41z9cw&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                11
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "id_categoria": 5,
+        "nombre": "NVIDIA Quadro RTX 5000",
+        "modelo": "Quadro RTX 5000",
+        "especificaciones_tecnicas": {
+            "chipset": "Turing",
+            "memoria": "16 GB GDDR6",
+            "puertos_usb": "DisplayPort",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Agosto 2019",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRelBfY0IXB8i_pRjpeyLdHpuEL97TUfY3BYQ&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                12
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 550",
+        "modelo": "RX 550",
+        "especificaciones_tecnicas": {
+            "chipset": "Polaris",
+            "memoria": "2 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Abril 2017",
+        "imagen": "https://m.media-amazon.com/images/I/61-PIBx43BL._AC_SL1000_.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                13
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 560",
+        "modelo": "RX 560",
+        "especificaciones_tecnicas": {
+            "chipset": "Polaris",
+            "memoria": "4 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Abril 2017",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfDuMIxJpt4cWhcDlzM95ntZDOEN9gJobHQ&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                14
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 570",
+        "modelo": "RX 570",
+        "especificaciones_tecnicas": {
+            "chipset": "Polaris",
+            "memoria": "4 GB GDDR5",
+            "puertos_usb": "HDMI, DisplayPort, DVI",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Abril 2017",
+        "imagen": "https://asset.msi.com/resize/image/global/product/product_8_20170412175443_58edf9635cb35.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                15
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6600 XT",
+        "modelo": "RX 6600 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Agosto 2021",
+        "imagen": "https://http2.mlstatic.com/D_837984-MLU72966940207_112023-C.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                16
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6700 XT",
+        "modelo": "RX 6700 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "12 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Marzo 2021",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_781370-MLA46252016308_062021-O.webp",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                17
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6750 XT",
+        "modelo": "RX 6750 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "12 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Mayo 2022",
+        "imagen": "https://acdn.mitiendanube.com/stores/002/301/169/products/nb_placa-de-video-asus-dual-rx-6750-xt-oc-12-gb_ver_35eed55345f9371c22c7ce5241a69bee-6cc29498fbc55622b517080886847505-1024-1024.jpeg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                18
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6800 XT",
+        "modelo": "RX 6800 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "16 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Diciembre 2020",
+        "imagen": "https://asset.msi.com/resize/image/global/product/product_1605516436d3924f866b29dfd4d11602bb12d44a20.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                19
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6900 XT",
+        "modelo": "RX 6900 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "16 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Diciembre 2020",
+        "imagen": "https://statics.qloud.ar/gaming-point-06-2021/221_15-06-2024-11-06-10-2012071505360.png",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                20
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon RX 6950 XT",
+        "modelo": "RX 6950 XT",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA 2",
+            "memoria": "16 GB GDDR6",
+            "puertos_usb": "HDMI, DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Mayo 2022",
+        "imagen": "https://www.malditohard.com.ar/wp-content/uploads/product/3/GPU304.webp",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                21
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon Pro WX 5100",
+        "modelo": "Radeon Pro WX 5100",
+        "especificaciones_tecnicas": {
+            "chipset": "Polaris",
+            "memoria": "8 GB GDDR5",
+            "puertos_usb": "DisplayPort",
+            "pci_express": "PCIe 3.0 x16",
+            "memoria_ram": "GDDR5"
+        },
+        "fecha_de_salida": "Septiembre 2016",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREt1JAnx1Sn92hxB-ZZThWqXlFVKWQCVuudg&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                22
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon Pro W5500",
+        "modelo": "Radeon Pro W5500",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Marzo 2020",
+        "imagen": "https://i.ytimg.com/vi/UYPN_VUrTp0/maxresdefault.jpg",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                23
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "id_categoria": 5,
+        "nombre": "AMD Radeon Pro W5700",
+        "modelo": "Radeon Pro W5700",
+        "especificaciones_tecnicas": {
+            "chipset": "RDNA",
+            "memoria": "8 GB GDDR6",
+            "puertos_usb": "DisplayPort",
+            "pci_express": "PCIe 4.0 x16",
+            "memoria_ram": "GDDR6"
+        },
+        "fecha_de_salida": "Febrero 2020",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNVJ2nt0JF7qtKkY48ItgcJhzaarzejgj7A&s",
+        "compatibilidad": {
+            "socket": "PCIe x16",
+            "procesadores_compatibles_id": [
+                24
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "id_categoria": 6,
+        "nombre": "EVGA 500 W1",
+        "modelo": "500 W1",
+        "especificaciones_tecnicas": {
+            "potencia": "500W",
+            "certificacion_eficiencia": "80 Plus White",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 1x 6+2 PCIe, 6x SATA, 4x Molex",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Enero 2020",
+        "imagen": "https://m.media-amazon.com/images/I/614bDrIa17L._AC_SL1000_.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                25
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "id_categoria": 6,
+        "nombre": "Corsair CV450",
+        "modelo": "CV450",
+        "especificaciones_tecnicas": {
+            "potencia": "450W",
+            "certificacion_eficiencia": "80 Plus Bronze",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 1x 6+2 PCIe, 6x SATA",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Mayo 2020",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_687785-MLU70064943569_062023-O.webp",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                26
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "id_categoria": 6,
+        "nombre": "Thermaltake Smart 500W",
+        "modelo": "Smart 500W",
+        "especificaciones_tecnicas": {
+            "potencia": "500W",
+            "certificacion_eficiencia": "80 Plus White",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 1x 6+2 PCIe, 6x SATA",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Marzo 2019",
+        "imagen": "https://www.xt-pc.com.ar/img/productos/26/VAR569.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                27
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "id_categoria": 6,
+        "nombre": "Seasonic S12III 650W",
+        "modelo": "S12III 650W",
+        "especificaciones_tecnicas": {
+            "potencia": "650W",
+            "certificacion_eficiencia": "80 Plus Bronze",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 2x 6+2 PCIe, 6x SATA",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Abril 2020",
+        "imagen": "https://www.compu-santafe.com.ar/productos/get-imagen/12412",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                28
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "id_categoria": 6,
+        "nombre": "Corsair CV650",
+        "modelo": "CV650",
+        "especificaciones_tecnicas": {
+            "potencia": "650W",
+            "certificacion_eficiencia": "80 Plus Bronze",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 2x 6+2 PCIe, 6x SATA",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Mayo 2020",
+        "imagen": "https://statics.qloud.com.ar/pc-store-computacion-11-2023/309_06-02-2024-10-02-43-oip.jpg",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                29
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "id_categoria": 6,
+        "nombre": "Cooler Master MWE 650W",
+        "modelo": "MWE 650W",
+        "especificaciones_tecnicas": {
+            "potencia": "650W",
+            "certificacion_eficiencia": "80 Plus Bronze",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 2x 6+2 PCIe, 6x SATA",
+            "ventilador": "120 mm"
+        },
+        "fecha_de_salida": "Junio 2021",
+        "imagen": "https://www.gamerspoint.com.ar/wp-content/uploads/Fuente-Coolermaster-Mwe-650w-V2-80-Plus-Bronze.png",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                30
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "id_categoria": 6,
+        "nombre": "Seasonic Focus GX-850",
+        "modelo": "Focus GX-850",
+        "especificaciones_tecnicas": {
+            "potencia": "850W",
+            "certificacion_eficiencia": "80 Plus Gold",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 4x 6+2 PCIe, 8x SATA",
+            "ventilador": "135 mm"
+        },
+        "fecha_de_salida": "Septiembre 2020",
+        "imagen": "https://www.compu-santafe.com.ar/productos/get-imagen/12823",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                31
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "id_categoria": 6,
+        "nombre": "Corsair RM850x",
+        "modelo": "RM850x",
+        "especificaciones_tecnicas": {
+            "potencia": "850W",
+            "certificacion_eficiencia": "80 Plus Gold",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 4x 6+2 PCIe, 8x SATA",
+            "ventilador": "135 mm"
+        },
+        "fecha_de_salida": "Mayo 2021",
+        "imagen": "https://www.malditohard.com.ar/wp-content/uploads/product/10/FUE115-300x300.webp",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                32
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "id_categoria": 6,
+        "nombre": "EVGA SuperNOVA 850 G5",
+        "modelo": "SuperNOVA 850 G5",
+        "especificaciones_tecnicas": {
+            "potencia": "850W",
+            "certificacion_eficiencia": "80 Plus Gold",
+            "conectores": "1x 24-pin, 1x 4+4-pin, 4x 6+2 PCIe, 8x SATA",
+            "ventilador": "135 mm"
+        },
+        "fecha_de_salida": "Agosto 2020",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxjXKgVddcqNdf6icTdI2pAMjuOk1OsUWbyw&s",
+        "compatibilidad": {
+            "procesadores_compatibles_id": [
+                33
             ]
         }
     }
