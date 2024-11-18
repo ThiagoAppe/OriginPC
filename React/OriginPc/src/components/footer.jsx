@@ -5,10 +5,9 @@ import { FaGithub } from 'react-icons/fa'; // Importa el ícono de GitHub
 
 export function Footer() {
   return (
-    <div className="bg-slate-700">
-      <footer className="px-4 py-4 lg:px-8 lg:py-4 bg-black text-white">
+    <div className="mt-auto bg-slate-700">
+      <footer className="px-4 py-3 lg:px-8 lg:py-4 bg-black text-white">
         <div className="flex justify-center gap-8">
-          {/* Información de las personas */}
           {['ThiagoAppe', 'juampixltzz', 'Franconext'].map((name, index) => (
             <div key={index} className="flex flex-col items-center">
               <Typography as="p" variant="small" color="blue-gray" className="font-normal">
@@ -25,7 +24,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="mt-4 text-center">
+        <div className="mt-3 text-center">
           <Typography as="p" variant="small" color="blue-gray" className="font-normal">
             &copy; {new Date().getFullYear()} - Instituto Superior Nuestra Señora Del Buen Viaje
           </Typography>

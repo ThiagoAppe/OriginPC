@@ -6,16 +6,21 @@ import { Footer } from './components/footer';
 
 function App() {
   return (
-    <Router>
-      <NavbarWithSolidBackground />
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <>
+      <main className='d-flex flex-column vh-100' >
+        <Router>
+          <NavbarWithSolidBackground />
 
-      <Footer />
-    </Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+
+          <Footer />
+        </Router>
+      </main>
+
+    </>
   );
 }
 

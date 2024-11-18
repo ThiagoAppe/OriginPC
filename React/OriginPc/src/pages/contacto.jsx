@@ -1,33 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Button } from "react-bootstrap";
+
+import ServicioTecnico from '../assets/Servicio Tecnico.jpg'
 
 const Contact = () => {
+  const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Formulario enviado correctamente. ¡Gracias por contactarnos!");
+    setFormData({ name: "", email: "", phone: "", message: "" });
+  };
+
   return (
     <>
-      <section className="py-5">
-        <div className="container">
-          <h1 className="text-center mb-4">Contacto - Origin PC</h1>
-          <form className="row g-3">
-            <div className="col-md-6">
+      <section className="container-fluid d-flex justify-content-evenly h-100 p-3">
+        <aside className="w-50 h-100">
+          <form onSubmit={handleSubmit}>
+            <div>
               <label htmlFor="name" className="form-label">Nombre y Apellido:</label>
-              <input type="text" className="form-control" id="name" name="name" required />
+              <input type="text" className="form-control" id="name" name="name" value={formData.name} onChange={handleChange} required />
             </div>
-            <div className="col-md-6">
+            <div>
               <label htmlFor="email" className="form-label">Correo Electrónico:</label>
-              <input type="email" className="form-control" id="email" required />
+              <input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required />
             </div>
-            <div className="col-md-6">
+            <div>
               <label htmlFor="phone" className="form-label">Teléfono:</label>
-              <input type="text" className="form-control" id="phone" required />
+              <input type="text" className="form-control" id="phone" name="phone" value={formData.phone} onChange={handleChange} required />
             </div>
-            <div className="col-12">
+            <div>
               <label htmlFor="message" className="form-label">Mensaje:</label>
-              <textarea id="message" name="message" className="form-control" rows="4" required></textarea>
+              <textarea id="message" name="message" className="form-control" rows="4" value={formData.message} onChange={handleChange} required></textarea>
             </div>
-            <div className="col-12 text-center">
-              <button type="submit" className="btn btn-primary">Enviar</button>
+            <div className="py-2">
+              <Button type="submit" style={{ backgroundColor: '#cc181e' }} variant="danger" size="md">Enviar</Button>
             </div>
           </form>
-        </div>
+        </aside>
       </section>
     </>
   );

@@ -42,7 +42,7 @@ export function NavbarWithSolidBackground() {
   );
 
   return (
-    <div className="bg-dark">
+    <div className=" bg-dark">
       <Navbar className="sticky-top bg-black navbar-expand-lg">
         <div className="container-fluid">
           <div className="d-flex justify-content-between w-100 align-items-center">
@@ -51,15 +51,15 @@ export function NavbarWithSolidBackground() {
               <img className="h-14" src={logo} alt="Logo" />
             </div>
 
-            {/* Navbar items for larger screens */}
+            {/* Navbar Items */}
             <div className="d-none d-lg-flex align-items-center">
               {navList}
-              <Button variant="danger" size="sm" className="ms-3">
+              <Button style={{ backgroundColor: '#cc181e' }} variant="danger" size="sm" className="ms-3">
                 Arma tu PC
               </Button>
             </div>
 
-            {/* Mobile menu button */}
+            {/* Mobile Navbar */}
             <Button
               variant="link"
               className="d-lg-none text-white"
@@ -73,14 +73,14 @@ export function NavbarWithSolidBackground() {
             </Button>
           </div>
 
-          {/* Collapsing menu for mobile view */}
+          {/* Menu Hamburgesa Mobile */}
           <Collapse in={openNav}>
-            <div>
+            <div className="flex" >
               {navList}
               {openNav && showButton && (
-                <Button variant="danger" size="sm" className="d-block d-lg-none mt-3">
-                  Arma tu PC
-                </Button>
+              <Button style={{ backgroundColor: '#cc181e' }} variant="danger" size="sm" className="ms-3">
+              Arma tu PC
+            </Button>
               )}
             </div>
           </Collapse>
