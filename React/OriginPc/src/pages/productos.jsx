@@ -5,6 +5,7 @@ const ProductCard = () => {
 
     useEffect(() => { 
         fetch('/database.json')
+        //https://raw.githubusercontent.com/ThiagoAppe/OriginPC/refs/heads/main/React/OriginPc/public/database.json
             .then(response => { 
                 if (!response.ok) throw new Error('Error al cargar la base de datos');
                 return response.json();
@@ -16,11 +17,12 @@ const ProductCard = () => {
                 console.error('Error:', error);
             });
     }, []);
+    
 
     if (products.length === 0) return <p className="text-center text-gray-500">Cargando productos...</p>;
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-3">
             {products.map(product => (
                 <div key={product.id} className="max-w-sm mx-auto border border-gray-300 rounded-lg shadow-lg p-4 bg-white">
                     <img src={product.imagen} alt={product.nombre} className="w-full h-48 object-cover rounded-t-lg" />
