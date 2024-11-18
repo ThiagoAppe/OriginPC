@@ -4,7 +4,6 @@ import Contact from './pages/contacto';
 import { NavbarWithSolidBackground } from './components/navbar';
 import { Footer } from './components/footer';
 
-
 function App() {
   return (
     <Router>
@@ -15,8 +14,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <Footer/>
-
+      <Footer />
     </Router>
   );
 }
