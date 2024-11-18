@@ -55,11 +55,12 @@ export function NavbarWithSolidBackground() {
             <img className="h-14" src={logo} alt="Logo WEBP" />
           </div>
 
-          <div className="mr-4 hidden lg:block">{navList}</div>
-
-          <Button variant="filled" size="sm" className="hidden lg:inline-block rounded bg-red-600 text-white">
-            <span>Arma tu PC</span>
-          </Button>
+          <div className="flex" >
+            <div className="mr-4 hidden lg:block">{navList}</div>
+            <Button variant="filled" size="sm" className="hidden lg:inline-block rounded bg-red-600 text-white">
+              <span>Arma tu PC</span>
+            </Button>
+          </div>
 
           {/* Icono de menú para mobile */}
           <IconButton
