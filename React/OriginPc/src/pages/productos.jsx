@@ -7,7 +7,7 @@ const ProductCard = ({ onProductSelect }) => {
     const [selectedCategory, setSelectedCategory] = useState(null);
 
     useEffect(() => {
-        fetch('/database.json')
+        fetch('https://raw.githubusercontent.com/ThiagoAppe/OriginPC/refs/heads/gh-pages/database.json')
             .then(response => {
                 if (!response.ok) throw new Error('Error al cargar la base de datos');
                 return response.json();
