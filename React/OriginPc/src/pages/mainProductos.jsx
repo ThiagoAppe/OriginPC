@@ -1,20 +1,32 @@
-import React, { useState } from 'react';
-import ProductCard from '../pages/productos';
-import ProductDetail from '../components/detalleProducto';
+import React, { useState, useEffect } from 'react';
+import ProductList from '../components/productList';
+import fetchGeneral from '../utils/request';  // Importa la función fetchGeneral
+import DetailInfo from '../components/detailInfo';  // Importa DetailInfo
 
 function MainProductos() {
-    const [selectedProductId, setSelectedProductId] = useState(null);
+    const [listaProductos, setListaProductos] = useState([]);
+    const [productoSeleccionado, setProductoSeleccionado] = useState(null);
 
-    const handleProductSelect = (productId) => {
-        setSelectedProductId(productId);
+    useEffect(() => {
+        const obtenerProductos = async () => {
+            const data = await fetchGeneral('https://raw.githubusercontent.com/ThiagoAppe/OriginPC/refs/heads/gh-pages/database.json');
+            setListaProductos(data);
+        };
+
+        obtenerProductos();
+    }, []);
+
+    const handleProductSelect = (id) => {
+        const producto = listaProductos.find((prod) => prod.id === id);  // Busca el producto por su ID
+        setProductoSeleccionado(producto);  // Establece el producto completo
     };
 
     return (
         <div>
-            {selectedProductId ? (
-                <ProductDetail productId={selectedProductId} />
+            {productoSeleccionado ? (
+                <DetailInfo producto={productoSeleccionado} />  // Pasa el producto completo
             ) : (
-                <ProductCard onProductSelect={handleProductSelect} />
+                <ProductList products={listaProductos} onProductSelect={handleProductSelect} />  // Usa onProductSelect consistente
             )}
         </div>
     );

@@ -8,20 +8,17 @@ import { Footer } from './components/footer';
 
 function App() {
   return (
-    <>
+    <Router basename="/OriginPC">
       <main className='d-flex flex-column vh-100'>
-        <Router>
-          <NavbarWithSolidBackground />
-
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/mainProductos" element={<MainProductos />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-          <Footer />
-        </Router>
+        <NavbarWithSolidBackground />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mainProductos" element={<MainProductos />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
       </main>
-    </>
+    </Router>
   );
 }
 

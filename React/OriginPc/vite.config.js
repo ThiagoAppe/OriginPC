@@ -3,5 +3,24 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://thiagoappe.github.io/OriginPC"
+  base: "https://thiagoappe.github.io/OriginPC",
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            // Esto dividirá cada paquete de node_modules en su propio chunk
+            const packages = id.split('node_modules/')[1].split('/')[0];
+            if (packages === 'react' || packages === 'react-dom') {
+              return 'react';
+            }
+            if (packages === 'react-router-dom') {
+              return 'react-router';
+            }
+            return packages;
+          }
+        },
+      },
+    },
+  },
 });
