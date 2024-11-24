@@ -10,7 +10,8 @@
             "frecuencia_base": "3.6 GHz",
             "frecuencia_max_turbo": "3.9 GHz",
             "cache": "18 MB (L2 + L3)",
-            "tdp": "65 W"
+            "tdp": "65 W",
+            "socket": "AM4"
         },
         "fecha_de_salida": "Mayo 2020",
         "imagen": "https://lezamapc.com.ar/21535-large_default/microprocesador-amd-ryzen-3-3100-am4-sin-video.jpg",
@@ -33,7 +34,8 @@
             "frecuencia_base": "3.6 GHz",
             "frecuencia_max_turbo": "4.2 GHz",
             "cache": "35 MB (L2 + L3)",
-            "tdp": "65 W"
+            "tdp": "65 W",
+            "socket": "AM4"
         },
         "fecha_de_salida": "Julio 2019",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_730795-MLU70005543490_062023-O.webp",
@@ -56,7 +58,8 @@
             "frecuencia_base": "3.6 GHz",
             "frecuencia_max_turbo": "4.4 GHz",
             "cache": "36 MB (L2 + L3)",
-            "tdp": "65 W"
+            "tdp": "65 W",
+            "socket": "AM4"
         },
         "fecha_de_salida": "Julio 2019",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJC_VzNPOchbuBO33TE-Lj14i0ntrRTNlEQ&s",
@@ -79,7 +82,8 @@
             "frecuencia_base": "3.8 GHz",
             "frecuencia_max_turbo": "4.6 GHz",
             "cache": "70 MB (L2 + L3)",
-            "tdp": "105 W"
+            "tdp": "105 W",
+            "socket": "AM4"
         },
         "fecha_de_salida": "Julio 2019",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_952195-MLA47980579793_102021-O.webp",
@@ -522,7 +526,8 @@
             "frecuencia_base": "3.3 GHz",
             "frecuencia_max_turbo": "4.3 GHz",
             "cache": "12 MB (L3)",
-            "tdp": "60 W"
+            "tdp": "60 W",
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2022",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYs0fKysQPdhqSWNMCUA1EO2EH2JdHf6XNA&s",
@@ -611,7 +616,8 @@
             "frecuencia_base": "3.7 GHz",
             "frecuencia_max_turbo": "4.9 GHz",
             "cache": "20 MB (L3)",
-            "tdp": "125 W"
+            "tdp": "125 W",
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2022",
         "imagen": "https://mla-s1-p.mlstatic.com/823326-MLA52874087375_122022-F.jpg",
@@ -700,7 +706,8 @@
             "frecuencia_base": "3.0 GHz",
             "frecuencia_max_turbo": "5.8 GHz",
             "cache": "36 MB (L3)",
-            "tdp": "125 W"
+            "tdp": "125 W",
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2023",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_851671-MLA52221724022_102022-O.webp",
