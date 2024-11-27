@@ -51,7 +51,7 @@ const PrimeraEleccion = ({ onSelect }) => {
               </div>
               <div className="card-footer bg-transparent text-center">
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-danger"
                   onClick={() => onSelect(card.id)}
                 >
                   Seleccionar Categoria

@@ -25,7 +25,7 @@ const BuildUrPC = () => {
     <div className="container my-5">
       {step > 1 && (
         <div className="mb-4">
-          <button className="btn btn-secondary" onClick={handleGoBack}>
+          <button className="btn btn-danger" onClick={handleGoBack}>
             Volver al paso anterior
           </button>
         </div>

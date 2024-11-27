@@ -94,7 +94,7 @@ const SegundaEleccion = ({ selectedOption, onSelect }) => {
               </div>
               <div className="card-footer bg-transparent text-center">
                 <button
-                  className="btn btn-success"
+                  className="btn btn-danger"
                   onClick={() => onSelect(opcion.id)}
                 >
                   Elegir esta opción
