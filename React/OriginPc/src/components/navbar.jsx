@@ -47,7 +47,7 @@ export function NavbarWithSolidBackground() {
   );
 
   return (
-    <div className=" bg-dark">
+    <div className="bg-dark">
       <Navbar className="sticky-top bg-black navbar-expand-lg">
         <div className="container-fluid">
           <div className="d-flex justify-content-between w-100 align-items-center">
@@ -59,7 +59,14 @@ export function NavbarWithSolidBackground() {
             {/* Navbar Items */}
             <div className="d-none d-lg-flex align-items-center">
               {navList}
-              <Button style={{ backgroundColor: '#cc181e' }} variant="danger" size="sm" className="ms-3">
+              <Button
+                as={Link}
+                to="/armaTuPC"
+                style={{ backgroundColor: '#cc181e' }}
+                variant="danger"
+                size="sm"
+                className="ms-3"
+              >
                 Arma tu PC
               </Button>
             </div>
@@ -78,14 +85,21 @@ export function NavbarWithSolidBackground() {
             </Button>
           </div>
 
-          {/* Menu Hamburgesa Mobile */}
+          {/* Menú Hamburgesa Mobile */}
           <Collapse in={openNav}>
-            <div className="flex" >
+            <div className="flex">
               {navList}
               {openNav && showButton && (
-              <Button style={{ backgroundColor: '#cc181e' }} variant="danger" size="sm" className="ms-3">
-              Arma tu PC
-            </Button>
+                <Button
+                  as={Link}
+                  to="/armaTuPC"
+                  style={{ backgroundColor: '#cc181e' }}
+                  variant="danger"
+                  size="sm"
+                  className="ms-3"
+                >
+                  Arma tu PC
+                </Button>
               )}
             </div>
           </Collapse>

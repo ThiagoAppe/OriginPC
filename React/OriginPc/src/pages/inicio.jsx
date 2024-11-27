@@ -83,8 +83,8 @@ const Home = () => {
       {/* Sección 3: Texto e Imagen */}
       <section className="container py-5 d-flex flex-column flex-lg-row align-items-center">
         <div className="col-lg-6 mb-4 mb-lg-0 p-2">
-          <h2 className="mb-4">Nosotros hacemos las cuentas para que vos no te preocupes.</h2>
-          <p className="text-muted">
+          <h2 className="mb-4 display-4 fw-bold">Nosotros hacemos las cuentas para que vos no te preocupes.</h2>
+          <p className="text-muted lead">
             Confiá en nuestro servicio para armar estaciones de trabajo personalizadas con los mejores componentes...
           </p>
         </div>
@@ -96,9 +96,6 @@ const Home = () => {
           />
         </div>
       </section>
-
-      {/* Sección 4: Testimonios */}
-
     </>
   );
 };

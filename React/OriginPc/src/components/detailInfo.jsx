@@ -1,8 +1,7 @@
 import React from 'react';
-import RenderCat1 from './renderCat1';  // Importamos el componente de la categoría 1
+import RenderCat1 from './renderCat1';
 
-const DetailInfo = ({ producto }) => {
-    // Verificamos el id_categoria y renderizamos el componente correspondiente
+const DetailInfo = ({ producto, onBack }) => {
     const { id_categoria } = producto;
 
     let renderizado = null;
@@ -11,10 +10,15 @@ const DetailInfo = ({ producto }) => {
         renderizado = <RenderCat1 producto={producto} />;
     }
 
-    // Podemos agregar más condiciones para otras categorías en el futuro
-
     return (
-        <div>
+        <div className='p-2' >
+            <button 
+                onClick={onBack} 
+                className="bg-danger text-white px-4 py-1 rounded mb-4 sticky top-2"
+            >
+                Volver atrás
+            </button>
+
             {renderizado}
         </div>
     );
