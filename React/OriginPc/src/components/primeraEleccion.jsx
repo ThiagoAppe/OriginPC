@@ -30,7 +30,7 @@ const PrimeraEleccion = ({ onSelect }) => {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">Elige tu Computadora</h2>
+      <h2 className="text-center mb-4 fs-1">Elige tu Computadora</h2>
       <div className="row">
         {cards.map((card) => (
           <div key={card.id} className="col-12 col-md-4 mb-4">

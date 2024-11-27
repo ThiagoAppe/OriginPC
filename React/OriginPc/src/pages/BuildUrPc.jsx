@@ -3,18 +3,18 @@ import PrimeraEleccion from "../components/primeraEleccion";
 import SegundaEleccion from "../components/segundaEleccion";
 
 const BuildUrPC = () => {
-  const [step, setStep] = useState(1); // Controla el paso actual
-  const [selectedOption, setSelectedOption] = useState(null); // Opción del primer paso
-  const [finalSelection, setFinalSelection] = useState(null); // Opción final seleccionada
+  const [step, setStep] = useState(1);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [finalSelection, setFinalSelection] = useState(null);
 
   const handleSelectOption = (option) => {
     setSelectedOption(option);
-    setStep(2); // Avanzar al siguiente paso
+    setStep(2);
   };
 
   const handleFinalSelection = (option) => {
     setFinalSelection(option);
-    alert(`Has elegido: ${option}`); // Aquí puedes redirigir o manejar la elección final
+    alert(`Has elegido: ${option}`);
   };
 
   const handleGoBack = () => {

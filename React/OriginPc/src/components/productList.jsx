@@ -2,15 +2,12 @@ import React, { useState } from 'react';
 import ProductCard from './productCard';
 
 const ProductList = ({ products, onProductSelect }) => {
-    // Estado para la categoría seleccionada
-    const [categoriaSeleccionada, setCategoriaSeleccionada] = useState('');  // Puede ser un string vacío para mostrar todos
+    const [categoriaSeleccionada, setCategoriaSeleccionada] = useState('');
 
-    // Función para manejar el cambio de categoría
     const handleCategoryChange = (event) => {
         setCategoriaSeleccionada(event.target.value);
     };
 
-    // Filtrar los productos según la categoría seleccionada
     const productosFiltrados = categoriaSeleccionada
         ? products.filter(product => product.id_categoria === parseInt(categoriaSeleccionada))
         : products;
@@ -45,7 +42,7 @@ const ProductList = ({ products, onProductSelect }) => {
                         imagen={product.imagen}
                         nombre={product.nombre}
                         modelo={product.modelo}
-                        onProductSelect={onProductSelect}  // Asegúrate de pasar la función correcta
+                        onProductSelect={onProductSelect}
                     />
                 ))}
             </div>

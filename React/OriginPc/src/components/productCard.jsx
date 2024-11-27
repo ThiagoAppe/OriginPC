@@ -10,13 +10,13 @@ const ProductCard = ({ id, imagen, nombre, modelo, onProductSelect, onAddToCart 
             {/* Botones */}
             <div className="mt-1 flex justify-between">
                 <button
-                    onClick={() => onProductSelect(id)}  // Pasamos directamente el id
+                    onClick={() => onProductSelect(id)}
                     className="bg-black m-2 w-full text-white p-2 rounded-lg"
                 >
                     Ver más
                 </button>
                 <button
-                    onClick={() => onAddToCart(id)}  // Llama a la función para añadir al carrito
+                    onClick={() => onAddToCart(id)}
                     style={{ backgroundColor: '#cc181e' }}
                     className="bg-danger m-2 w-full text-white rounded-lg"
                 >

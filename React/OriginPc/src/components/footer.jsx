@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Typography } from '@material-tailwind/react';
-import { FaGithub } from 'react-icons/fa'; // Importa el ícono de GitHub
+import { FaGithub } from 'react-icons/fa';
 
 export function Footer() {
   return (
