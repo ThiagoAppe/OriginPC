@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -7,16 +8,26 @@ const Home = () => {
       <section className="container py-5 bg-white text-black">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h1 className="display-4 fw-bold">El Futuro es Hoy...<br />No te quedes en el tiempo.</h1>
+            <h1 className="display-4 fw-bold">
+              El Futuro es Hoy...
+              <br />
+              No te quedes en el tiempo.
+            </h1>
             <p className="lead">
-              En un mundo en constante evolución, tener la tecnología adecuada marca la diferencia...
+              En un mundo en constante evolución, tener la tecnología adecuada
+              marca la diferencia...
             </p>
             <div className="d-flex gap-3 mt-3">
-              <button style={{
-                backgroundColor: '#cc181e',
-                outline: 'none'
-              }} className="btn btn-danger btn-lg">Arma tu nueva máquina</button>
-              <button className="btn btn-outline-secondary btn-lg">Productos</button>
+              <Link
+                to="/armaTuPC"
+                className="btn btn-danger btn-lg"
+                style={{ backgroundColor: "#cc181e", outline: "none" }}
+              >
+                Arma tu nueva máquina
+              </Link>
+              <Link to="/mainProductos" className="btn btn-outline-secondary btn-lg">
+                Productos
+              </Link>
             </div>
           </div>
           <div className="col-md-6 text-center">
@@ -44,7 +55,8 @@ const Home = () => {
             </div>
             <h3>Componentes Dedicados</h3>
             <p className="text-muted">
-              Ofrecemos una selección exclusiva de componentes diseñados para maximizar el rendimiento de tus equipos...
+              Ofrecemos una selección exclusiva de componentes diseñados para
+              maximizar el rendimiento de tus equipos...
             </p>
           </div>
           <div className="col-md-4 mb-4 d-flex flex-column align-items-center">
@@ -59,7 +71,8 @@ const Home = () => {
             </div>
             <h3>Componentes Específicos</h3>
             <p className="text-muted">
-              Cada usuario tiene requisitos únicos, y por eso ofrecemos opciones de componentes específicos...
+              Cada usuario tiene requisitos únicos, y por eso ofrecemos opciones
+              de componentes específicos...
             </p>
           </div>
           <div className="col-md-4 mb-4 d-flex flex-column align-items-center">
@@ -74,7 +87,8 @@ const Home = () => {
             </div>
             <h3>Estaciones Completas</h3>
             <p className="text-muted">
-              Nos especializamos en la creación de estaciones de trabajo completas, diseñadas para cumplir con los más altos estándares...
+              Nos especializamos en la creación de estaciones de trabajo
+              completas, diseñadas para cumplir con los más altos estándares...
             </p>
           </div>
         </div>
@@ -83,9 +97,12 @@ const Home = () => {
       {/* Sección 3: Texto e Imagen */}
       <section className="container py-5 d-flex flex-column flex-lg-row align-items-center">
         <div className="col-lg-6 mb-4 mb-lg-0 p-2">
-          <h2 className="mb-4 display-4 fw-bold">Nosotros hacemos las cuentas para que vos no te preocupes.</h2>
+          <h2 className="mb-4 display-4 fw-bold">
+            Nosotros hacemos las cuentas para que vos no te preocupes.
+          </h2>
           <p className="text-muted lead">
-            Confiá en nuestro servicio para armar estaciones de trabajo personalizadas con los mejores componentes...
+            Confiá en nuestro servicio para armar estaciones de trabajo
+            personalizadas con los mejores componentes...
           </p>
         </div>
         <div className="col-lg-6 text-center">
