@@ -527,7 +527,7 @@
             "frecuencia_max_turbo": "4.3 GHz",
             "cache": "12 MB (L3)",
             "tdp": "60 W",
-            "socket": "LGA 1700"
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2022",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYs0fKysQPdhqSWNMCUA1EO2EH2JdHf6XNA&s",
@@ -617,7 +617,7 @@
             "frecuencia_max_turbo": "4.9 GHz",
             "cache": "20 MB (L3)",
             "tdp": "125 W",
-            "socket": "LGA 1700"
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2022",
         "imagen": "https://mla-s1-p.mlstatic.com/823326-MLA52874087375_122022-F.jpg",
@@ -707,7 +707,7 @@
             "frecuencia_max_turbo": "5.8 GHz",
             "cache": "36 MB (L3)",
             "tdp": "125 W",
-            "socket": "LGA 1700"
+            "socket": "LGA 1700",
         },
         "fecha_de_salida": "Enero 2023",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_851671-MLA52221724022_102022-O.webp",
